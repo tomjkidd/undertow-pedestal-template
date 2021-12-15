@@ -1,0 +1,3 @@
+[submodule "keytool-local-trust"]
+	path = keytool-local-trust
+	url = https://github.com/tomjkidd/keytool-local-trust.git

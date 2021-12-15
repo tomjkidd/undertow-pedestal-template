@@ -1,3 +1,18 @@
+.PHONY: keytool-local-trust clean-keytool-local-trust
+
+# Generate a keystore/truststore
+# These commands should only seldom be needed. They are useful for
+# generating a new working keystore/truststore when the committed ones
+# expire. See that README and Makefile for more information.
+#
+# Note that they call the git submodule's Makefile, recursively:
+# https://www.gnu.org/software/make/manual/html_node/Recursion.html
+keytool-local-trust:
+	cd keytool-local-trust && $(MAKE)
+
+clean-keytool-local-trust:
+	cd keytool-local-trust && $(MAKE) clean
+
 # ============================
 # Testing the template locally
 # ============================

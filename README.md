@@ -6,6 +6,16 @@ A Leiningen template for FIXME.
 
 FIXME
 
+## keytool-local-trust
+
+This project uses a submodule, `keytool-local-trust`, which was installed via:
+
+``` sh
+git submodule add https://github.com/tomjkidd/keytool-local-trust.git
+```
+
+This project can use the `keytool-local-trust` repo to generate a new keystore/truststore
+
 ## License
 
 Copyright © 2021 FIXME
