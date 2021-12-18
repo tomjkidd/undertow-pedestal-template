@@ -1,6 +1,6 @@
 # com.tomjkidd/undertow-pedestal
 
-A Leiningen template for using undertow and pedestal to provide a web server
+A lein template that integrates the undertow web server with clojure pedestal
 
 ## Usage
 
@@ -26,7 +26,7 @@ make myproject-remove
 make myproject-list
 ```
 
-These commands will exercise the service, which reprent a simple todo list,
+These commands will exercise the service, which represent a simple todo list,
 and output useful results to show the basic operations are working
 
 ## https and keytool-local-trust
@@ -70,7 +70,7 @@ use https!
 
 ## License
 
-Copyright © 2021 FIXME
+Copyright © 2021 tomjkidd
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
